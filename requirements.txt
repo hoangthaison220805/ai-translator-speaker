@@ -1,0 +1,19 @@
+# --- Cốt lõi AI ---
+sherpa-onnx       # Nhận dạng giọng nói (STT)
+ctranslate2       # Engine chạy dịch thuật INT8 (MT)
+transformers      # Xử lý Tokenizer cho model dịch thuật
+sentencepiece     # Backend phân tách từ vựng cho OPUS-MT
+piper-tts         # Chuyển văn bản thành giọng nói (TTS)
+
+# --- Xử lý Âm thanh & Tín hiệu ---
+sounddevice       # Thu âm từ Microphone
+numpy             # Xử lý mảng dữ liệu âm thanh
+pypinyin          # Chuyển đổi Hán tự sang Pinyin cho TTS tiếng Trung
+
+# --- Giao tiếp & Hệ thống ---
+keyboard          # Bắt sự kiện phím bấm (Push-to-talk)
+
+# --- Benchmark & Phân tích dữ liệu ---
+sacrebleu         # Tính toán điểm BLEU Score
+pandas            # Xử lý dữ liệu bảng
+openpyxl          # Xuất báo cáo ra file Excel (.xlsx)
